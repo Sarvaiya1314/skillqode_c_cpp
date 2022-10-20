@@ -1,4 +1,4 @@
-//Multiple inheritance with Student Example 
+//Hybrid inheritance with Student Example 
 #include<iostream>
 #include<string.h>
 using namespace std;
@@ -11,7 +11,6 @@ class Student
 
     void read();
     void display();
-
 };
 
 class Marks : public Student

@@ -4,7 +4,7 @@ using namespace  std;
 
 class Bank
 {
-    int bal;
+    int bal;00
     public:
 
     static int total_deposite_amt,total_withdrawa_amt,total_trans;
@@ -15,12 +15,12 @@ class Bank
         this->bal=bal;
     }
 
-    int showbalance(int deposite)
-    {
+    int showbalance()
+    {                                                        
         return bal;
     }
 
-    int deposite()
+    int deposite(int deposite)
     {
         total_deposite_amt+=deposite;
         total_trans++;
@@ -67,6 +67,6 @@ int main()
 
     cout<<"\n Balance A : "<<a.showbalance();
     cout<<"\n Balance B : "<<b.showbalance();
-    
+
 }
 

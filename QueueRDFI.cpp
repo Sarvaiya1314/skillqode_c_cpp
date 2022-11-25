@@ -67,12 +67,12 @@ int main()
     int ch,val;
     do 
     {
-        printf("\n press 1 for-->> ins");
-        printf("\n press 2 for-->> del");
+        printf("\n press 1 for-->> Insert");
+        printf("\n press 2 for-->> Delete");
         printf("\n press 3 for-->> show");
-        printf("\n press 4 for--> redelet");
-        printf("\n press 0 for-->> exit");
-        printf("\nenter your choice=");
+        printf("\n press 4 for--> RearDelete");
+        printf("\n press 0 for-->> Exit");
+        printf("\nenter your choice :   ");
         scanf("%d",&ch);
         switch (ch)
         {
